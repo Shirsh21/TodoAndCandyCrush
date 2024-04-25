@@ -1,0 +1,45 @@
+.total-container{
+    height: 100vh;
+}
+.TODOAPP{
+display: inline-block;
+width: 49.5%;
+height: 100%;
+text-align: center;
+background: url('./assets/imagetodo.png');
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+position: relative;
+
+}
+.CANDY{
+display: inline-block;
+width: 49.5%;
+height: 100%;
+text-align: center;
+background: url('./assets/imagecc.png');
+background-position: top;
+background-size: cover;
+position: relative;
+margin-left: 1%;
+}
+
+.TODOAPP span{
+    position: absolute;
+    margin: 45% -3%;
+    font-size: 90px;
+    color: aliceblue;
+}
+.CANDY span{
+    position: absolute;
+    margin: 45% -25%;
+    font-size:   0px;
+}
+
+.TODOAPP:hover{
+    opacity: 0.7;
+}
+.CANDY:hover{
+    opacity: 0.7;
+}

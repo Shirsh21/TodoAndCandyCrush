@@ -1,0 +1,60 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+.candy{
+  
+  background: url("./assets/background.webp");
+  /* background-position: center; */
+  height: 100vh;
+  margin: -8px;
+}
+
+.app {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+.game {
+  width: 560px;
+  height: 560px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.score {
+  text-align: end;
+  font-size: 50px;
+  height: 60px;
+  border-radius: 5px;
+  padding-bottom: 15px;
+  background: rgba(249, 118, 205, 0.9);  
+  font-family: "Pacifico", cursive;
+  font-weight: 300;
+}
+
+.game img {
+  width: 70px;
+  height: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
